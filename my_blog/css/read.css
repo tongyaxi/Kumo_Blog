@@ -1,0 +1,33 @@
+
+body {
+	background: #eee;
+}
+
+.c_center {
+	text-align: center;
+}
+
+.r_div {
+	float: right;
+}
+
+.head_line {
+	border-bottom: 1px solid #177cb0;
+}
+
+#main {
+	margin-top:50px;
+	width: 68%;
+}
+
+#article {
+	margin-top:80px;
+	margin-bottom:80px;
+	text-align: center;
+	clear: both;
+}
+
+#a_head{
+	padding-bottom:40px;
+}
+

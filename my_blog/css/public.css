@@ -1,0 +1,37 @@
+h2 {
+	color: #337ab7;
+}
+
+#commoncss {
+	color: #337ab7;
+}
+
+body {
+	background: #eee;
+}
+
+.c_center {
+	text-align: center;
+}
+
+.r_div {
+	float: right;
+}
+
+.foot_line {
+	border-top: 1px solid #C0C0C0;
+	margin-bottom: 20px;
+}
+
+#main {
+	width: 68%;
+}
+
+#content {
+	text-align: center;
+	clear: both;
+}
+
+#list {
+	margin-top: 10px;
+}

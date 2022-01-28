@@ -1,0 +1,31 @@
+body {
+	background: #eee;
+}
+
+.r_div {
+	float: right;
+}
+
+.foot_line{
+	border-top: 1px solid #C0C0C0;	
+	margin-bottom: 20px;
+}
+
+#main {
+	width: 68%;
+}
+
+#content {
+	text-align: center;
+	clear: both;
+}
+
+#center_content{
+	margin-top:120px;
+	
+}
+
+#person_info {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
