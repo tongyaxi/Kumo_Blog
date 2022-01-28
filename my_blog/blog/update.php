@@ -98,7 +98,7 @@ if($id){
                         <div  class="list-group-item">									
                             <form action="./update.php" method="POST">
                                 <div class="info" >
-                                    <?php if(isset($r['id']) ){ ?>
+                                    <?php if(isset($r['id']) ): ?>
                                     <input type="hidden" name="id" value="<?php echo $r['id']; ?>">
                                     <span class="help">表題</span>
                                     <input type="text" class="form-control" name="subject" value="<?php echo $r['subject']; ?>">
@@ -107,10 +107,7 @@ if($id){
                                     </div>
                                     <br/>
                                     <input class="btn btn-default" type="submit"  value="送信"/>
-                                    <?php }else{
-                                        echo "<div id='commoncss'>更新する権限がありません。</div>";
-                                    } ?>
-
+                                    <?php endif;?>
                                     <?php
                                         if(isset($result)){
                                             if($result == 1){
@@ -118,6 +115,7 @@ if($id){
                                             }else{
                                                 echo "<div id='commoncss'>更新できませんでした。</div>";
                                             }
+                                            
                                         }
                                         echo "<br/>";
                                         echo "<a href='./blog.php'>ホームへ</a>"?>
