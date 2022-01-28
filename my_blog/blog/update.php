@@ -110,11 +110,13 @@ if($id){
                                     <?php endif; ?>
 
                                     <?php
-                                        if(isset($result)){
-                                            if($result == 1) {
-                                                echo "<a href='read.php?id={$id}'>更新しました。詳細へ</a><br/>";
-                                            }
-                                    }?>
+                                        if(isset($result) && $result == 1 ){
+                                            echo "<a href='read.php?id={$id}'>更新しました。詳細へ</a><br/>";
+                                        }else {
+                                            echo "<div id='commoncss'>更新できませんでした。</div>";
+                                        }
+                                        echo "<br/>";
+                                        echo "<a href='./blog.php'>ホームへ</a>"?>
                                 </div> 
                             </form>
                         </div>
